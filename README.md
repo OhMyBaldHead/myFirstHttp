@@ -1,5 +1,5 @@
 # My First Http Server
-本项目是用纯C语言编写的高并发轻量级服务器，可以相应不同种类的GET请求。采用Reactor高效模式，利用经典的epoll+线程池实现并发。
+本项目是用纯C语言编写的高并发轻量级服务器，可以相应不同种类的GET请求。采用了Reactor高效模式，epoll+线程池模型，log日志系统，ET+非阻塞IO等技术。
 # 环境要求
 Ubuntu14   
 gcc 
