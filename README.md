@@ -15,3 +15,6 @@ gcc main.c Thread_pool.c -o main -pthread
 6 如果主线程有cfd读事件反应，交给响应请求线程池分配线程处理读事件，之后将该cfd监听事件改为可写    
 7 如果主线程有cfd可写事件反应，交给响应请求线程池分配线程处理写事件，之后将cfd从树上摘下，并关闭该cfd  
 ![7c1820210068e0251150893c62029ac](https://user-images.githubusercontent.com/93315922/177950660-336e7331-e249-49b1-b074-7fc8d1769bf1.png)
+#压力测试
+![image](https://user-images.githubusercontent.com/93315922/178397928-ab8b75db-6706-4dd2-9ef5-e51b2dee36c8.png)
+
